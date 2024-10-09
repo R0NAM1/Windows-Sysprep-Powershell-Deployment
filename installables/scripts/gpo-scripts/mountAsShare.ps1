@@ -1,0 +1,1 @@
+net use \\fog\tools /User:none

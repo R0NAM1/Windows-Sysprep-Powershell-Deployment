@@ -1,11 +1,9 @@
+echo("")
 echo("=== Changing Lockscreen Wallpaper -- R0NAM1 ===")
-
-# Mount Drive
-net use P: \\fog\tools
 
 # Copy to root
 echo("Copying lockscreen to C:\lockscreen.jpg")
-cp P:\installables\scripts\lockscreen.jpg C:\lockscreen.jpg
+cp \\fog\tools\installables\scripts\lockscreen.jpg C:\lockscreen.jpg
 
 
 echo("Setting Lockscreen")
